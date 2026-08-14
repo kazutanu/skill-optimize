@@ -5,7 +5,10 @@
 [![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-orange.svg)](#overview)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 
-> Deterministic AI Agent Skill (.md) compression & domain adaptation engine via Flexible 2-Tier Architecture (v1.0.1).
+# skill-optimize-bpk
+
+> **Token-efficient prompt compression & domain adaptation engine for AI Agent Skills, powered by Flexible 2-Tier Architecture.**  
+> コスト削減・応答高速化・ニュアンス維持を両立する AIエージェントスキル最適化プロトコル
 
 ---
 
