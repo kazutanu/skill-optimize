@@ -1,23 +1,23 @@
 # skill-optimize-bpk (v2.0.0)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Architecture: 4--Pillar%20BPK%20Pipeline](https://img.shields.io/badge/Architecture-4--Pillar%20BPK%20Pipeline-green.svg)](#the-4-pillar-historical-archetypes--engineered-skills)
+[![Architecture: 4--Pillar%20BPK%20Pipeline](https://img.shields.io/badge/Architecture-4--Pillar%20BPK%20Pipeline-green.svg)](#4-pillar-bpk-suite-specification)
 [![Version: 2.0.0](https://img.shields.io/badge/Version-2.0.0-orange.svg)](#overview)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 
 > Deterministic Autonomous Multi-Agent Orchestration & Skill Optimization Suite (v2.0.0).  
-> Grounded in the proven historical archetypes of strategic audit, modular architecture, dual-phase logistics, and mathematical execution.
+> Grounded in 4 proven historical archetypes: strategic premise audit, modular architecture, dual-phase logistics, and mathematical minimal-diff execution.
 
 ---
 
 ## ⚡ Overview
 
-`skill-optimize-bpk` (v2.0.0) is a deterministic, fully autonomous multi-agent orchestration framework. By modeling four quintessential roles from history, it establishes a zero-latency pipeline that moves from requirement validation to deployment without waiting for manual human intervention.
+`skill-optimize-bpk` (v2.0.0) is a deterministic, fully autonomous multi-agent orchestration framework. By modeling four quintessential roles from history, it establishes an unblocked pipeline that moves from requirement validation to test verification without manual intervention.
 
 ```text
 [User Task / Strategic Goal]
     │
-    ▼ Gate 0: Liu Ji (Strategic Premise Audit & Scope Freeze)
+    ▼ Gate 0: Liu Ji (Premise Audit & Scope Freeze)
 [Verify core premises, eliminate bloated requirements, gate invalid tasks]
     │
     ▼ Gate 1: Kozukenosuke Oguri (Modular Architecture & DAG Engineering)
@@ -38,37 +38,35 @@
 
 ---
 
-## 🏛 The 4-Pillar Historical Archetypes & Engineered Skills
+## 🏛 4-Pillar BPK Suite Specification
 
-Each pillar in the BPK suite translates a proven historical discipline into a strict, programmatic AI agent specification:
+### 1. 🛡 Liu Ji (`liuji-protocol`)
+> **日本語**: 明建国の軍師。冷徹な現実主義で誤った前提と過剰設計を排除し、安全な迂回路と最終監査を統制する。
+* **Historical Archetype**: Grand Strategist of the Ming Dynasty; renowned for ruthless pragmatism, identifying root causes, and eliminating false premises.
+* **Gate 0 (Premise Verification)**: Validates requirements upfront to eliminate unnecessary over-engineering.
+* **Safety Gate (Tianji Mediation)**: Automatically intervenes after 2 consecutive errors to enforce fallback routing.
+* **Gate 5 (Zero-Base Audit)**: Prunes decorative prose, redundant steps, and structural code bloat before delivery.
 
-### 1. 🛡 Liu Ji (劉伯温 / Liu Bowen) — Strategic Premise Audit & Safety Gate
-* **Historical Archetype**: Imperial Grand Strategist and scholar behind the founding of the Ming Dynasty, renowned for ruthless pragmatism, identifying root causes, and stripping away false premises.
-* **Engineered Skill (`liuji-protocol`)**:
-  * **Gate 0 (Premise Verification)**: Challenges requirements before execution to reject unnecessary over-engineering.
-  * **Safety Gate (Tianji Mediation)**: Intervenes automatically after 2 consecutive failures to enforce fallback and safe-mode routing.
-  * **Gate 5 (Zero-Base Audit)**: Final pruning of decorative adjectives, redundant steps, and structural bloat before delivery.
+### 2. 📐 Kozukenosuke Oguri (`kozukenosuke-bpk`)
+> **日本語**: 幕末の勘定奉行。「土蔵」思想に基づき、全モデルで再利用可能なモジュラー設計と30万枠DAG工程を策定する。
+* **Historical Archetype**: Magistrate of the Tokugawa Shogunate; designed enduring modern industrial infrastructure ("Storehouse" philosophy).
+* **Modular Storehouse Architecture**: Defines standardized, reusable specifications across any LLM without vendor lock-in.
+* **300k-Token DAG Breakdown**: Decomposes complex tasks into micro-WBS units strictly bounded to 300,000 tokens.
+* **Targeted Diff Specifications**: Generates unambiguous execution specs (`TargetFile`, `LineRange`, `DiffSpec`) directly wired to the executor.
 
-### 2. 📐 Kozukenosuke Oguri (小栗上野介) — Modular Architecture & DAG Engineering
-* **Historical Archetype**: Chief Financial and Diplomatic Magistrate of the Tokugawa Shogunate, who designed the modern industrial foundations (Yokosuka Shipyard, Western military systems) built to endure beyond regime changes (*"The store may collapse, but the storehouse remains"*).
-* **Engineered Skill (`kozukenosuke-bpk`)**:
-  * **Modular Storehouse Architecture**: Defines standardized, reusable specifications that work across any LLM model without vendor lock-in.
-  * **300k Token DAG Breakdown**: Decomposes complex tasks into micro-WBS DAG units strictly bounded within 300,000 tokens.
-  * **Targeted Diff Specifications**: Generates unambiguous execution specs (`TargetFile`, `LineRange`, `MinimalDiff`) directly wired to the executor.
+### 3. ⚖ Xiao He (`xiaohe-bpk`)
+> **日本語**: 漢建国の功臣第一位。30万枠自動パスで前線を止めず、事後実測により未使用トークンを即座に国庫台帳へ返還する。
+* **Historical Archetype**: Founding Prime Minister of the Han Dynasty (Rank 1 Merit); master of continuous frontline supply lines and state registers.
+* **Wartime Logistics Mode**: Provides an automatic, zero-friction pass for micro-tasks (<= 300k tokens) to keep execution unblocked.
+* **Peacetime Fiscal Restraint**: Automatically downgrades non-critical tasks from high-cost models to cost-efficient models.
+* **Real-Time Metering & Refund**: Measures consumed tokens post-execution and immediately returns surplus quota back to the treasury ledger.
 
-### 3. ⚖ Xiao He (蕭何) — Dual-Phase Logistics & Fiscal Discipline
-* **Historical Archetype**: Supreme Founding Prime Minister (Rank 1 Merit) of the Han Dynasty, master of state registers, continuous frontline supply lines, and post-war economic restoration (*"Allowing the people to rest"*).
-* **Engineered Skill (`xiaohe-bpk`)**:
-  * **Wartime Logistics Mode**: Provides an automatic, zero-friction pass for micro-tasks (<= 300,000 tokens) to keep execution unblocked.
-  * **Peacetime Fiscal Restraint**: Automatically downgrades non-critical tasks from high-cost models to cost-efficient models.
-  * **Real-Time Metering & Refund**: Runs `zaimusho_meter.py` post-execution and immediately returns unused quota (`ApprovedQuota - Actuals`) back to the shared ledger.
-
-### 4. ⚡ Masujiro Omura (大村益次郎) — High-Speed Minimal-Diff Execution
-* **Historical Archetype**: The father of the modern Japanese army, master of Dutch studies, medicine, and military science, who achieved swift, decisive victories with minimal casualties through exact mathematical calculation and ballistics.
-* **Engineered Skill (`masujiro`)**:
-  * **Targeted Diff Patching**: Strictly prohibits full-file regenerations; only applies atomic line-bounded modifications (`replace_file_content`).
-  * **Objective Machine Verification**: Rejects manual completion claims; enforces automated test commands and verifies `exit_code == 0`.
-  * **Max 3-Line Output**: Completely strips conversational pleasantries, returning strictly facts, links, and progress.
+### 4. ⚡ Masujiro Omura (`masujiro`)
+> **日本語**: 近代日本兵学の祖。感情を排した数学的計算により、最小差分パッチと自動テスト検証で電撃完遂する。
+* **Historical Archetype**: Master of Dutch studies and military science; achieved decisive victories through precision mathematics and ballistics.
+* **Targeted Diff Patching**: Prohibits full-file rewrites; only applies atomic line-bounded modifications (`replace_file_content`).
+* **Objective Machine Verification**: Rejects subjective completion claims; enforces automated test commands and verifies `exit_code == 0`.
+* **Max 3-Line Output**: Completely strips conversational pleasantries, returning strictly facts, links, and progress.
 
 ---
 
